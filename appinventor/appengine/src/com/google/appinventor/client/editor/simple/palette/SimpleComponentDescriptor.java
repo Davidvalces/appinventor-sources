@@ -42,6 +42,8 @@ import com.google.common.collect.Maps;
 import com.google.gwt.resources.client.ImageResource;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Widget;
+import com.google.appinventor.client.editor.simple.components.MockHorizontalScroll;
+import com.google.appinventor.client.editor.simple.components.MockVerticalScroll;
 
 import java.util.Map;
 
@@ -126,6 +128,8 @@ public final class SimpleComponentDescriptor {
     bundledImages.put("images/listView.png", images.listview());
     bundledImages.put("images/yandex.png", images.yandex());
     bundledImages.put("images/proximitysensor.png", images.proximitysensor());
+    bundledImages.put("images/scrollh.png", images.scrollh());
+    bundledImages.put("images/scrollv.png", images.scrollv());
     imagesInitialized = true;
   }
 
@@ -318,6 +322,10 @@ public final class SimpleComponentDescriptor {
       return new MockWebViewer(editor);
     } else if (name.equals(MockSpinner.TYPE)) {
       return new MockSpinner(editor);
+    } else if (name.equals(MockHorizontalScroll.TYPE)) {
+        return new MockHorizontalScroll(editor);
+  	} else if (name.equals(MockVerticalScroll.TYPE)) {
+        return new MockVerticalScroll(editor);
     } else {
       // TODO(user): add 3rd party mock component proxy here
       throw new UnsupportedOperationException("unknown component: " + name);
