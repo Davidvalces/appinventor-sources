@@ -5771,4 +5771,141 @@ public interface OdeMessages extends Messages {
     "function into the indefinite future.")
   @Description("")
   String firebaseExperimentalWarning();
+  
+  // Entradas para posibles Componentes
+  
+   @DefaultMessage("Colores iu")
+  @Description("")
+  String coloresUi();
+  
+   @DefaultMessage("Size")
+  @Description("")
+  String SizeProperties();
+  
+   @DefaultMessage("ID")
+  @Description("")
+  String IDProperties();
+  
+   @DefaultMessage("Ad Unit ID")
+  @Description("")
+  String AdUnitIDProperties();
+  
+  
+   @DefaultMessage("Intersitial AD Loaded")
+  @Description("")
+  String IsIntersitialAdLoadedMethods();
+  
+   @DefaultMessage("Show Intersitial Ad")
+  @Description("")
+  String ShowIntersitialAdMethods();
+  
+   @DefaultMessage("API Project Number")
+  @Description("")
+  String APIProjectNumberProperties();
+  
+   @DefaultMessage("Screen Notificacion")
+  @Description("")
+  String DefaultNotificationScreenProperties();
+  
+   @DefaultMessage("Title Notificacion")
+  @Description("")
+  String DefaultNotificationTitleProperties();
+  
+   @DefaultMessage("IMEI Phone")
+  @Description("")
+  String GetPhoneIMEIProperties();
+  
+   @DefaultMessage("Phone Name")
+  @Description("")
+  String GetPhoneNameProperties();
+  
+   @DefaultMessage("Notificacion Enable")
+  @Description("")
+  String NotificationsEnabledProperties();
+  
+   @DefaultMessage("Reguistro ID")
+  @Description("")
+  String RegistrationIDProperties();
+  
+   @DefaultMessage("Coneccion a internet")
+  @Description("")
+  String isConnectedToInternetProperties();
+  
+   @DefaultMessage("On Push Events")
+  @Description("")
+  String OnPushEvents();
+  
+   @DefaultMessage("Register")
+  @Description("")
+  String RegisterMethods();
+  
+   @DefaultMessage("Unegister")
+  @Description("")
+  String UnegisterMethods();
+  
+   @DefaultMessage("Time Zone")
+  @Description("")
+  String GetTimerTimezoneProperties();
+  
+   @DefaultMessage("Next Timer activacion")
+  @Description("")
+  String NextTimeTriggeredProperties();
+  
+   @DefaultMessage("Repetir")
+  @Description("")
+  String RepeatingProperties();
+  
+   @DefaultMessage("Time Zone")
+  @Description("Tiempo que queda para activacion")
+  String TimeLeftBeforeTriggeredProperties();
+  
+   @DefaultMessage("Despertarse")
+  @Description("")
+  String WakeUpProperties();
+  
+   @DefaultMessage("Timer Evento activacion")
+  @Description("")
+  String TimerTriggeredEvents();
+  
+   @DefaultMessage("Create Notification")
+  @Description("")
+  String CreateNotificationMethods();
+  
+   @DefaultMessage("Finish Form")
+  @Description("")
+  String FinishFormMethods();
+  
+   @DefaultMessage("Siguiente Fecha Timer activación")
+  @Description("")
+  String NextDateTimeTriggeredMethods();
+  
+   @DefaultMessage("Reset Timer")
+  @Description("")
+  String ResetTimerMethods();
+  
+   @DefaultMessage("Repetir  dia Timer")
+  @Description("")
+  String SetRepeatedDailyTimerMethods();
+  
+   @DefaultMessage("Repetir Timer semanal")
+  @Description("")
+  String SetRepeatedWeeklyTimerMethods();
+  
+  
+  
+  
+  
+   @DefaultMessage("Time Zone")
+  @Description("")
+  String SetTimerTimezoneMethods();
+  
+   @DefaultMessage("Timer Enable")
+  @Description("")
+  String TimerEnabledMethods();
+  
+   @DefaultMessage("Timer")
+  @Description("")
+  String setTimerMethods();
+  
+  
 }
