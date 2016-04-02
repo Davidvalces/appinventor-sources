@@ -45,7 +45,7 @@ import com.google.gwt.user.client.ui.Widget;
 // davivalcesp@gmail.com
 import com.google.appinventor.client.editor.simple.components.MockHorizontalScroll;
 import com.google.appinventor.client.editor.simple.components.MockVerticalScroll;
-
+import com.google.appinventor.client.editor.simple.components.MockAdMob;
 import java.util.Map;
 
 /**
@@ -131,6 +131,10 @@ public final class SimpleComponentDescriptor {
     bundledImages.put("images/proximitysensor.png", images.proximitysensor());
      bundledImages.put("images/scrollh.png", images.scrollh());
      bundledImages.put("images/scrollv.png", images.scrollv());
+      bundledImages.put("images/admob.png", images.admob());
+	 bundledImages.put("images/admobbaner.png", images.admobbaner());
+	 bundledImages.put("images/GoogleCloudMessaging.png", images.GoogleCloudMessaging());
+	 bundledImages.put("images/timer.png", images.timer());
     imagesInitialized = true;
   }
 
@@ -327,6 +331,8 @@ public final class SimpleComponentDescriptor {
         return new MockHorizontalScroll(editor);
   	} else if (name.equals(MockVerticalScroll.TYPE)) {
         return new MockVerticalScroll(editor);
+  	} else if (name.equals(MockAdMob.TYPE)) {
+        return new MockAdMob(editor);
     } else {
       // TODO(user): add 3rd party mock component proxy here
       throw new UnsupportedOperationException("unknown component: " + name);
