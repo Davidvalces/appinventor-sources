@@ -86,6 +86,8 @@
     <copy toFile="${classes.files.dir}/android.jar" file="${lib.dir}/android/4.2.2/android.jar" />
     <copy toFile="${classes.files.dir}/dx.jar" file="${lib.dir}/android/tools/dx.jar" />
     <copy toFile="${classes.files.dir}/CommonVersion.jar" file="${build.dir}/common/CommonVersion.jar" />
+    <copy toFile="${classes.files.dir}/admob.jar" file="${lib.dir}/admob/admob.jar" />
+	<copy toFile="${classes.files.dir}/gcm.jar" file="${lib.dir}/gcm/gcm.jar" />
 
     <property name="classes.tools.dir" location="${BuildServer-class.dir}/tools" />
     <copy todir="${classes.tools.dir}">
