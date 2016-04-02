@@ -529,5 +529,37 @@ public interface Images extends Resources {
   @Source("com/google/appinventor/images/scrollv.png")
   ImageResource scrollv();
   
-
+ /**
+   * 
+   * Designer palette item: admob component
+   */
+  @Source("com/google/appinventor/images/admob.png")
+  ImageResource admob();
+  
+  
+  /**
+   * 
+   * Designer palette item: admobbaner component
+   */
+  @Source("com/google/appinventor/images/admobbaner.png")
+  ImageResource admobbaner();
+  
+  
+  
+  
+  /**
+   * 
+   * Designer palette item: GoogleCloudMessaging component
+   */
+  @Source("com/google/appinventor/images/GoogleCloudMessaging.png")
+  ImageResource GoogleCloudMessaging();
+  
+  
+  
+  
+  /**
+   * Designer palette item: Timer component
+   */
+  @Source("com/google/appinventor/images/timer.png")
+  ImageResource timer();
 }
