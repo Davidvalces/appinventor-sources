@@ -110,6 +110,13 @@
         <pathelement location="lib/twitter/twitter4j-media-support-3.0.5.jar" />
         <pathelement location="lib/QRGenerator/core.jar" />
         <pathelement location="lib/QRGenerator/javase.jar" />
+         <!-- Librerias externas david valdivia -->
+		<pathelement location="lib/admob/admob.jar" />
+		<pathelement location="lib/gcm/gcm.jar" />
+		<pathelement location="lib/google-play-services/google-play-services.jar" />
+		<pathelement location="lib/support/android-support-design.jar" />
+		<pathelement location="lib/funf/funf-0.3.0.jar" />
+		<pathelement location="lib/funf/funf.jar" />
         <fileset dir="buildserver/lib" includes="**/*.jar"/>
         <!-- Apache Http Libraries -->
         <pathelement location="lib/apache-http/httpcore-4.3.2.jar" />
