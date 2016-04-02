@@ -513,5 +513,21 @@ public interface Images extends Resources {
    */
   @Source("com/google/appinventor/images/proximitysensor.png")
   ImageResource proximitysensor();
+  
+  // davivalcesp@gmail.com
+   /**
+   * 
+   * Designer palette item: HorizontalScroll component
+   */
+  @Source("com/google/appinventor/images/scrollh.png")
+  ImageResource scrollh();
+  
+  /**
+   * 
+   * Designer palette item: VerticalScroll component
+   */
+  @Source("com/google/appinventor/images/scrollv.png")
+  ImageResource scrollv();
+  
 
 }
